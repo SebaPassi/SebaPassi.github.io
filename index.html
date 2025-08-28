@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Properties API - Redirecting...</title>
+</head>
+<body>
+    <script>
+        // Redirigir el tráfico que llega hacia la IP pública de EC2
+        const targetUrl = 'http://18.230.62.223:3000' + window.location.pathname + window.location.search;
+        window.location.href = targetUrl;
+    </script>
+    <p>Redirecting to Properties API...</p>
+</body>
+</html>
